@@ -60,3 +60,32 @@
     color:white;
     border: none;
 }
+
+.hero-section{
+  max-width: 1920px;
+  height: 240px;
+  text-align: center;
+  background: linear-gradient(90deg, #013223 0%, #006747 50%, #013223 100%);
+  margin: 0;
+}
+
+.hero-logo img{
+  width: 92px;
+  height: 92px;
+  padding-top: 21px;
+  object-fit: contain;
+  margin: 0;
+}
+.hind-madurai-regular,.hero-title {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+}
+.hind-madurai-semibold,.hero-description {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
