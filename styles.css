@@ -164,4 +164,50 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 260px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 320px;
+}
+.history-list li {
+  padding: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+}
+.clear-btn{
+  background-color: #00A63E;
+  border-radius: 50px;
+  width: 100px;
+  height: 42px;
+  gap: 6px;
+  font-weight: bold;
+  color:white;
+  border: none;
+  cursor: pointer;
+
 }
